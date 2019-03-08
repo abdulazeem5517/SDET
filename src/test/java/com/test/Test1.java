@@ -15,7 +15,7 @@ WebDriver driver;
     public void setUp() {
         System.out.println("*******************");
         System.out.println("launching the browser");
-        System. setProperty("webdriver.chrome.driver", "C:\\Solarturbines_Workspace\\AutomationPOCs\\driver\\chromedriver.exe");
+        System. setProperty("webdriver.chrome.driver", "C:\\SDET\\SDET\\driver\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }

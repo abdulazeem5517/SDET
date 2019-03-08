@@ -15,7 +15,7 @@ public class Test2 {
         public void setUp() {
             System.out.println("*******************");
             System.out.println("launching chrome  browser");
-            System. setProperty("webdriver.chrome.driver", "C:\\Solarturbines_Workspace\\AutomationPOCs\\driver\\chromedriver.exe");
+            System. setProperty("webdriver.chrome.driver", "C:\\SDET\\SDET\\driver\\chromedriver.exe");
             driver = new ChromeDriver();
             driver.manage().window().maximize();
         }
